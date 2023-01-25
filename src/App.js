@@ -1,9 +1,13 @@
 import "./App.css";
-
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Navbar />
+      <Routing />
+      <Footer />
     </>
   );
 }
